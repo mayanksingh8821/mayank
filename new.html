@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="md">
+
+        <div class="sd" id="sd1"></div>
+        
+        <div class="sd" id="sd2"></div>
+        
+        <div class="sd" id="sd3"></div>
+        
+        <div class="sd" id="sd4"></div>
+    </div>
+</body>
+</html>
+
+
+
+<style>
+    .md{
+        width: 500px;
+        height: 1100px;
+        background-color: yellow;
+    }
+
+
+    .sd{position: relative;
+        width: 100px;
+        height: 100px;
+       
+    }
+
+
+    #sd1{
+        background-color: red;
+        margin-left: 40px;
+        position: fixed;
+        z-index: 1;
+    }
+    #sd2{
+        background-color:blue;
+        bottom: 2px;
+        margin-top: 50px;
+    }
+    #sd3{
+        background-color: green;
+        right: 2px;
+        bottom: 2px;
+    }
+    #sd4{
+        background-color: blueviolet;
+    }
+</style>
